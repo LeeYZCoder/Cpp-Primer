@@ -30,7 +30,7 @@ std::istream &read(std::istream &is, Person &person)
 
 std::ostream &print(std::ostream &os, const Person &person)
 {
-    return os << person.name << " " << person.address;
+    return os << person.name + " " << person.address;
 }
 
 #endif
